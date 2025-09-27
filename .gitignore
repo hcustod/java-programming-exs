@@ -1,0 +1,63 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# --- Eclipse / STS ---
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+.loadpath
+.factorypath
+# STS Spring Tooling cache
+.springBeans
+
+# --- VS Code (optional, harmless) ---
+.vscode/
+
+# --- Build outputs (Java) ---
+bin/
+out/
+build/
+target/
+dist/
+
+# --- Logs & temp ---
+*.log
+*.tmp
+*.temp
+hs_err_pid*
+replay_pid*
+
+# --- Maven ---
+# Keep the Maven wrapper! (do NOT ignore .mvn or wrapper files)
+# target/ already ignored above
+
+# --- Gradle ---
+.gradle/
+# Keep the Gradle wrapper!
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+# If you later add Gradle build dir, it's already covered by 'build/'
+
+# --- IntelliJ IDEA (if you ever open it) ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Coverage / reports ---
+jacoco.exec
+coverage/
+*.ec
+*.exec
+*.lcov
+site/
+
+# --- Misc Java tool caches ---
+.mtj.tmp/
+
