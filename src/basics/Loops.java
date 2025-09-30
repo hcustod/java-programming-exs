@@ -34,5 +34,6 @@ public class Loops {
 			if (x % 2 == 0) continue;
 			System.out.println("odd: " + x);
 		}
+		
 	}
 }
